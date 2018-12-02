@@ -1,0 +1,65 @@
+html {
+  font-family: 'Black Han Sans', sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+img {
+    display: block;
+}
+.table {
+    margin-bottom: 20px;
+    width: 100%; 
+  border-collapse: collapse;
+    background-color: cornsilk;
+    border: 2px solid darkgreen;
+    padding: 5px;
+}
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #333; 
+  color: white; 
+  padding-top: 15px;
+  padding-bottom: 15px
+  
+}
+td, th { 
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #ccc; 
+  text-align: center; 
+}
+tr {
+    padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.table > thead > tr > td.success,
+.table > tbody > tr > td.success,
+.table > tfoot > tr > td.success,
+.table > thead > tr > th.success,
+.table > tbody > tr > th.success,
+.table > tfoot > tr > th.success,
+.table > thead > tr.success > td,
+.table > tbody > tr.success > td,
+.table > tfoot > tr.success > td,
+.table > thead > tr.success > th,
+.table > tbody > tr.success > th,
+.table > tfoot > tr.success > th {
+  background-color: #dff0d8;
+}
+.table-hover > tbody > tr > td.success:hover,
+.table-hover > tbody > tr > th.success:hover,
+.table-hover > tbody > tr.success:hover > td,
+.table-hover > tbody > tr:hover > .success,
+.table-hover > tbody > tr.success:hover > th {
+  background-color: #d0e9c6;
+}
+
+
+
+
